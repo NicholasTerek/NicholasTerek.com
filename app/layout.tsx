@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/react"
 import type React from "react"
 import "@/app/globals.css"
 import type { Metadata } from "next"
@@ -35,9 +36,9 @@ export default function RootLayout({
           forcedTheme="light" // Force light theme to prevent hydration mismatch
         >
           {children}
+          <Analytics /> {/* Add Vercel Analytics here */}
         </ThemeProvider>
       </body>
     </html>
   )
 }
-
