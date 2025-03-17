@@ -39,8 +39,6 @@ export default function Home() {
     <div className="flex min-h-screen flex-col bg-[#f5f0e8] overflow-hidden">
       {/* Background patterns */}
       <div className="fixed inset-0 z-0 pointer-events-none">
-        <div className="absolute top-0 right-0 w-[300px] h-[300px] bg-[url('/placeholder.svg?height=600&width=600')] opacity-5 rotate-45"></div>
-        <div className="absolute bottom-0 left-0 w-[500px] h-[500px] bg-[url('/placeholder.svg?height=1000&width=1000')] opacity-5 rotate-12"></div>
         <div className="absolute top-[30%] left-[20%] w-[200px] h-[200px] rounded-full bg-[#e63946] opacity-5 blur-3xl"></div>
         <div className="absolute top-[70%] right-[10%] w-[300px] h-[300px] rounded-full bg-[#e63946] opacity-5 blur-3xl"></div>
         <div className="fixed top-0 left-0 w-1 h-full bg-[#e63946] opacity-40"></div>
