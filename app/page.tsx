@@ -218,44 +218,61 @@ export default function Home() {
                   alt="Nicholas Terek"
                 />
 
-                <div className="container mx-auto p-4">
-
-                  <div className="flex items-start gap-4 mt-8">
-                    {/* Box 1 */}
-                    <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
-                      <div className="w-full h-full">
-                        <Image src="/IMG_3615.jpg" alt="Event 1" className="w-full h-full object-cover" />
+                  <div className="container mx-auto p-4">
+                    <div className="flex items-start gap-4 mt-8">
+                      {/* Box 1 */}
+                      <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
+                        <div className="w-full h-full">
+                          <Image 
+                            src="/IMG_3615.jpg" 
+                            alt="Event 1" 
+                            width={180} 
+                            height={130} 
+                            className="w-full h-full object-cover" 
+                          />
+                        </div>
+                        <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
+                          <p className="text-xs uppercase tracking-widest text-white text-center font-medium">
+                            <b>S:\HA&lt;KS</b>
+                          </p>
+                        </div>
                       </div>
-                      <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
-                        <p className="text-xs uppercase tracking-widest text-white text-center font-medium"> 
-                          <b>S:\HA&lt;KS</b> 
-                        </p>
+
+                      {/* Box 2 */}
+                      <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
+                        <div className="w-full h-full">
+                          <Image 
+                            src="/Wilfrid_Laurier_University_-_Lazaridis_Hall.jpg" 
+                            alt="Event 2" 
+                            width={180} 
+                            height={130} 
+                            className="w-full h-full object-cover" 
+                          />
+                        </div>
+                        <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
+                          <p className="text-xs uppercase tracking-widest text-white text-center font-medium">
+                            <b>UoftHacks</b>
+                          </p>
+                        </div>
+                      </div>
+
+                      {/* Box 3 */}
+                      <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
+                        <div className="w-full h-full">
+                          <Image 
+                            src="/Wilfrid_Laurier_University_-_Lazaridis_Hall.jpg" 
+                            alt="Event 3" 
+                            width={180} 
+                            height={130} 
+                            className="w-full h-full object-cover" 
+                          />
+                        </div>
+                        <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
+                          <p className="text-xs uppercase tracking-widest text-white text-center font-medium">EVENT 1</p>
+                        </div>
                       </div>
                     </div>
-
-                    {/* Box 2 */}
-                    <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
-                      <div className="w-full h-full">
-                        <Image src="/Wilfrid_Laurier_University_-_Lazaridis_Hall.jpg" alt="Event 2" className="w-full h-full object-cover" />
-                      </div>
-                      <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
-                        <p className="text-xs uppercase tracking-widest text-white text-center font-medium">
-                          <b>UoftHacks</b>
-                        </p>
-                      </div>
-                    </div>
-
-                    {/* Box 3 */}
-                    <div className="relative border border-[#1d3557] overflow-hidden w-[180px] h-[130px]">
-                      <div className="w-full h-full">
-                        <Image src="/Wilfrid_Laurier_University_-_Lazaridis_Hall.jpg" alt="Event 3" className="w-full h-full object-cover" />
-                      </div>
-                      <div className="absolute bottom-0 left-0 right-0 bg-[#1d3557] px-2 py-2">
-                        <p className="text-xs uppercase tracking-widest text-white text-center font-medium">EVENT 1</p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+</div>
 
 
 
